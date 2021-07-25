@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@100&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./dist/css/styles.css">
   <title>Document</title>
 </head>
 <body>
-  <h1>Yo!</h1>
+  <navbar class="navbar">
+    <a href="#" class="navbar__logo">
+      <img src="images/logo.svg" alt="logo">  
+    </a>
+    <div class="navbar__menu" id="navbar-menu">
+      <a href="" class="navbar__menu--links">Home</a>
+      <a href="" class="navbar__menu--links">About</a>
+      <a href="" class="navbar__menu--links">Contact</a>
+      <a href="" class="navbar__menu--links">Blog</a>
+      <a href="" class="navbar__menu--links">Careers</a>
+    </div>
+    <div class="navbar__bars" id="navbar-button">
+      <img class="navbar__bars--hamburger" src="images/icon-hamburger.svg" alt="open">
+      <img class="navbar__bars--close" src="images/icon-close.svg" alt="close">
+    </div>
+    <div class="navbar__invite">
+      <button class="navbar__invite--button">
+        Request Invite
+      </button>
+    </div>
+  </navbar>
+
+  <script src="scripts.js"></script>
 </body>
 </html>
