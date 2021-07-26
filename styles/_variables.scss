@@ -1,13 +1,15 @@
-$shadow : hsl(233, 26%, 70%);
+// Colors
 $darkBlue : hsl(233, 26%, 24%);
-$lime : hsl(136, 65%, 51%);
-$cyan : hsl(192, 70%, 51%);
+$limeGreen : hsl(136, 65%, 51%);
+$brightCyan : hsl(192, 70%, 51%);
 $grayishBlue :  hsl(233, 8%, 62%);
 $lightGrayishBlue : hsl(220, 16%, 96%);
-$lightGray : hsl(0, 0%, 98%);
+$veryLightGray : hsl(0, 0%, 98%);
 $white : hsl(0, 0%, 100%);
 
-$normal : 18px;
+// Font Sizes
+$font-sm:0.875rem;
+$font-med:1.125rem;
 
 $bold : 700;
 $normal:400;
